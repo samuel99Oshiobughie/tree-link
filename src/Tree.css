@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Inter,sans-serif;
+    position: relative;
+    transition: .5s ease;
 }
 
 .tree {
-    background: #F4F5F7;
+    background: #FFFFFF;
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
@@ -26,7 +29,7 @@
     width: 100%;
 }
 
-#profile_img {
+#profile__img {
   border-radius: 270px;
   
 }
@@ -70,7 +73,7 @@
     display: none;
 }
 
-.modal{
+#btn__zuri {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -87,9 +90,162 @@
     order: 0;
     flex-grow: 1;
     margin-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #101828;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-.text {
+#books {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 8px;
+    width: 1152px;
+    height: 76px;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #101828;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#book__python {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 8px;
+    width: 1152px;
+    height: 76px;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #101828;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#pitch {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 8px;
+    width: 1152px;
+    height: 76px;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #101828;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#book__design {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 8px;
+    width: 1152px;
+    height: 76px;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #101828;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+#twitter__link {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 8px;
+    width: 1152px;
+    height: 76px;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-top: 24px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -115,89 +271,126 @@ a {
 .social_section {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 40px;
     justify-content: center;
     padding: 24px 0px;
     gap: 64px;
     width: 1216px;
-    height: 72px;
+    height: 60px;
     background: #FFFFFF;
     flex: none;
     flex-grow: 0;
 }
 
+
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 48px 0px;
-    width: 1216px;
-    height: 10px;
-    left: 0px;
-    top: 998px;
-    background: #FFFFFF;
-    margin-top: 90px;
+    flex-wrap: nowrap;
+    width: 95%;
+    margin-top: 10px;
+    min-height: 140px;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #eaecf0;
+    /* gap: initial; */
 }
 
-.zuri {
-    width: 185.03px;
-    height: 24.74px;
-    top: 6.98px;
-    left: 1.36px;
-    font-weight: 45x;
+
+
+footer .zuriLogo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
 }
 
-.dot{
-    background: #E7332B;
-    position: relative;
-    width: 7px;
-    height: 7px;
-    bottom: 19px;
-    left: 52px;
+footer .zuriLogo h2 span {
+    background: #e7332b;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 8px;
+    width: 8px;
+    font-size: 13px;
 }
 
-.footer_text {
-    height: 24px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
+
+footer .zuriText p {
     color: #667085;
-    flex: none;
+    font-size: 14px;
+    font-weight: lighter;
+    display: block;
 }
+
+
+
+
 
 
 @media screen and (max-width: 600px) {
-    .tree {
-        gap: 24px;
-    }
-
-    .modal{
-        padding: 24px 32px;
-        width: 343px;
-        height: 68px;
-    }
-
     footer {
         display: flex;
         flex-direction: column;
-        width: 375px;
         height: 196px;
         padding: 32px 0px;
     }
 
-    .zuri {
-        margin-left: 20px;
+    .zuriLogo {
+        padding-right: 220px;
     }
 
-    .footer_text {
-        margin-right: 125px;
+    footer .zuriLogo h2 {
+        font-size: 18px;
     }
 
-    .I4G {
-        margin-left: 20px;
+    .zuriText {
+        padding-right: 150px;
+    }
+
+    .i4gLogo {
+        padding-right: 260px;
+    }
+}
+
+
+
+@media screen and (max-width: 1500px) {
+    #twitter__link{
+        padding: 24px 32px;
+        width: 95%;
+        height: 68px;
+    }
+
+
+    #btn__zuri{
+        padding: 24px 32px;
+        width: 95%;
+        height: 68px;
+    }
+
+    #books{
+        padding: 24px 32px;
+        width: 95%;
+        height: 68px;
+    }
+
+    #book__python{
+        padding: 24px 32px;
+        width: 95%;
+        height: 68px;
+    }
+
+    #pitch{
+        padding: 24px 32px;
+        width: 95%;
+        height: 68px;
+    }
+
+    #book__design{
+        padding: 24px 32px;
+        width: 95%;
+        height: 68px;
     }
 }
 
