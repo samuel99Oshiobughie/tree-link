@@ -1,8 +1,9 @@
 import profileLogo from './assets/supreme.png'
 import shareButton from './assets/share-button.png'
+import shareIcon from './assets/share-icon.png'
 import slackIcon from './assets/slack.png'
 import githubIcon from './assets/github.png'
-import vector from './assets/vector.png'
+
 import I4G from './assets/I4G.png'
 import "./Tree.css";
 
@@ -15,7 +16,10 @@ const Tree = ( ) => {
                         <img src={profileLogo} alt="profile image" id="profile__img" width="88px" height="88px"/>
                     </div>
                     <div className="share_button">
-                        <img src={shareButton} alt="avatar share button"/>
+                        <picture>
+                            <source media="(max-width: 400px)" srcset={shareIcon}/>
+                            <img src={shareButton} alt="avatar share button"/>
+                        </picture>
                     </div>
                 </div>
 
