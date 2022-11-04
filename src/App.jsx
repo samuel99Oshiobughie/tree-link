@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Tree from './Tree'
+import Footer from "./Footer";
 import "./App.css";
 
 
@@ -9,6 +10,7 @@ const App = () => {
         <Routes>
             <Route path="/" element={<Tree />}/>
         </Routes>
+        <Footer />
     </>
   ) 
 }
