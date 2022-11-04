@@ -3,6 +3,7 @@ import shareButton from './assets/share-button.png'
 import shareIcon from './assets/share-icon.png'
 import slackIcon from './assets/slack.png'
 import githubIcon from './assets/github.png'
+import Footer from "./Footer";
 import "./Tree.css";
 
 const Tree = ( ) => {
@@ -35,7 +36,7 @@ const Tree = ( ) => {
                     <div><img src={slackIcon} alt="slack logo"/></div>
                     <a href='https://github.com/samuel99Oshiobughie'><img src={githubIcon} alt=" github logo"/></a>
                 </div>
-                
+                <Footer />
             </div>
         </div>
     )
