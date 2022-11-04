@@ -3,8 +3,7 @@ import shareButton from './assets/share-button.png'
 import shareIcon from './assets/share-icon.png'
 import slackIcon from './assets/slack.png'
 import githubIcon from './assets/github.png'
-
-import I4G from './assets/I4G.png'
+import Footer from "./Footer";
 import "./Tree.css";
 
 const Tree = ( ) => {
@@ -37,21 +36,7 @@ const Tree = ( ) => {
                     <div><img src={slackIcon} alt="slack logo"/></div>
                     <a href='https://github.com/samuel99Oshiobughie'><img src={githubIcon} alt=" github logo"/></a>
                 </div>
-                <footer>        
-                    <div className='zuriLogo'>
-                        <h2>
-                            Zuri 
-                            <span></span>
-                                Internship
-                        </h2>
-                    </div>
-                    <div className='zuriText'>
-                        <p>HNG Internship 9 Frontend Task</p>
-                    </div>
-                    <div className='i4gLogo'> 
-                    <img src={I4G} alt="I4G logo" width="100px"/>
-                    </div>  
-                </footer>
+                <Footer />
             </div>
         </div>
     )
