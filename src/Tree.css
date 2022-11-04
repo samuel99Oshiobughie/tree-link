@@ -1,5 +1,4 @@
 
-
 .tree {
     background: #FFFFFF;
     width: 100%;
@@ -304,77 +303,6 @@ a {
     background: #FFFFFF;
     flex: none;
     flex-grow: 0;
-}
-
-
-footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 95%;
-    margin-top: 10px;
-    min-height: 140px;
-    align-items: center;
-    justify-content: space-between;
-    border-top: 1px solid #eaecf0;
-    /* gap: initial; */
-}
-
-
-
-footer .zuriLogo h2 {
-    font-size: 24px;
-    font-weight: bold;
-    display: block;
-}
-
-footer .zuriLogo h2 span {
-    background: #e7332b;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 2px;
-    margin-right: 2px;
-    height: 8px;
-    width: 8px;
-    font-size: 13px;
-}
-
-
-footer .zuriText p {
-    color: #667085;
-    font-size: 14px;
-    font-weight: lighter;
-    display: block;
-}
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-        height: 196px;
-        padding: 32px 0px;
-    }
-
-    .zuriLogo {
-        padding-right: 220px;
-    }
-
-    footer .zuriLogo h2 {
-        font-size: 18px;
-    }
-
-    .zuriText {
-        padding-right: 150px;
-    }
-
-    .i4gLogo {
-        padding-right: 260px;
-    }
 }
 
 
