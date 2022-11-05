@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import profileLogo from './assets/supreme.png'
 import shareButton from './assets/share-button.png'
 import shareIcon from './assets/share-icon.png'
@@ -31,7 +32,7 @@ const Tree = ( ) => {
                 <a href="https://books.zuri.team/python-for-beginners?ref_id=BlackDev" id="book__python" target="_blank" rel="noreferrer nooppener">Python Books</a>
                 <a href="https://background.zuri.team/" id="pitch" target="_blank" rel="noreferrer nooppener" title="Connect you with certified programmers">Background Check for Coders</a>
                 <a href="https://books.zuri.team/design-rules" id="book__design" target="_blank" rel="noreferrer nooppener" title='Become a design master, for free'>Design Books</a>
-                <a href="/contact" id="contact"  >Contact</a>
+                 <Link className="contact-card" to="/contact"><a id="contact" >Contact</a></Link>
                 <div className='social_section'>
                     <div><img src={slackIcon} alt="slack logo"/></div>
                     <a href='https://github.com/samuel99Oshiobughie'><img src={githubIcon} alt=" github logo"/></a>
