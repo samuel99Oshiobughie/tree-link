@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import Tree from './Tree'
-
 import Contact from "./Contact";
 import "./App.css";
 

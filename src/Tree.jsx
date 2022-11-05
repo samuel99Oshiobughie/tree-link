@@ -16,7 +16,7 @@ const Tree = ( ) => {
                     </div>
                     <div className="share_button">
                         <picture>
-                            <source media="(max-width: 400px)" srcset={shareIcon}/>
+                            <source media="(max-width: 400px)" srcSet={shareIcon}/>
                             <img src={shareButton} alt="avatar share button"/>
                         </picture>
                     </div>
