@@ -7,13 +7,12 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="body">
+    <>
         <Routes>
             <Route path="/" element={<Tree />}/>
             <Route path="/contact" element={<Contact />}/>
-        </Routes>
-       
-    </div>
+        </Routes> 
+    </>
   ) 
 }
 
